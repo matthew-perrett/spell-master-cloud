@@ -17,8 +17,3 @@ exports.textToSpeech = async (req, res) => {
 
   res.status(200).send(response.audioContent);
 };
-
-exports.test = (req, res) => {
-  res.send(req.query);
-};
-
